@@ -4,7 +4,7 @@ This repository contains my submission for Assignment 2 of the Artificial Intell
 
 ---
 
-## 📄 Contents
+## Contents
 
 - `AIML_2025_A2_23634.py` – Python code implementing solutions for all three questions.
 - `AIML_2025_A2_23634.pdf` – Report detailing the methodology, implementation steps, results, and plots for all attempted questions.
@@ -12,7 +12,7 @@ This repository contains my submission for Assignment 2 of the Artificial Intell
 
 ---
 
-## ✅ Attempted Questions
+## Attempted Questions
 
 ### Question 1 – Support Vector Machine and Perceptron
 
@@ -44,3 +44,29 @@ This repository contains my submission for Assignment 2 of the Artificial Intell
 - Visualized predicted vs actual stock prices and moving averages across all models.
 
 ---
+## ⚙️ Requirements
+
+- Python 3.12.8
+- Libraries:
+  - `numpy`, `pandas`, `matplotlib`, `sklearn`, `torch`, `cvxopt`
+---
+## 📊 Results Summary
+
+- **Perceptron:** Did not converge on full CIFAR-100 data; converged after removing 403 non-separable images.
+- **SVM:** Dual version was slightly faster; kernelized version achieved 100% classification accuracy.
+- **MLP vs CNN vs Logistic Regression (with PCA):**
+  - CNN achieved highest accuracy (~98%)
+  - MLP performed slightly worse but still strong (~95%)
+  - Logistic Regression with PCA had acceptable performance (~89%)
+- **Regression:**
+  - Ridge Regression handled rank-deficient cases better.
+  - SVR models showed improved prediction with appropriate kernel and window size tuning.
+
+---
+## Contact
+
+For any queries, please reach out to:  
+**Kolipaka Bhargav Sashank**  
+**SR Number**: 23634  
+**Mail :- bhargavsk@iisc.ac.in**  
+**IISc, Bangalore**
